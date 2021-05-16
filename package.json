@@ -1,0 +1,42 @@
+{
+  "name": "reapex-react-boilerplate",
+  "version": "1.0.0",
+  "description": "reapex application starter",
+  "scripts": {
+    "start": "reapex start",
+    "build": "reapex build",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "jest": "^26.6.3",
+    "postcss": "^8.2.15",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reapex": "^1.0.0-beta.18"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "author": "",
+  "license": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReapexJS/reapex-react-boilerplate.git"
+  },
+  "homepage": "https://github.com/ReapexJS/reapex-react-boilerplate",
+  "bugs": "https://github.com/ReapexJS/reapex-react-boilerplate/issues"
+}
