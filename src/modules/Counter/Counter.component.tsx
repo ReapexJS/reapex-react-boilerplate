@@ -10,8 +10,6 @@ const [mutations] = CounterModel.mutations({
   decrease: () => (s) => ({ ...s, total: s.total - 1 }),
 })
 
-document.getElementById('tets')
-
 export const Counter = () => {
   const total = CounterModel.useState((s) => s.total)
 
