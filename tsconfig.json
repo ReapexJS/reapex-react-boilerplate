@@ -19,10 +19,10 @@
     "noUnusedLocals": true,
     "baseUrl": "./",
     "paths": {
-      "*": ["*", "./.wp_federation/*"]
+      "*": ["*", "./.wp_federation/remotes/*"]
     },
     "typeRoots": [
-      "./.wp_federation",
+      "./.wp_federation/remotes",
       "./node_modules/@types"
     ]
   },
