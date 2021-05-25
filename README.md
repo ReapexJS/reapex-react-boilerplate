@@ -1,4 +1,4 @@
-## reapex application boilerplate
+## reapex micro frontend application boilerplate
 
 ### Start application
 

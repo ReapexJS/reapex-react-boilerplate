@@ -1538,6 +1538,14 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
 
+"@types/loader-utils@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/loader-utils/-/loader-utils-2.0.2.tgz#2999dc2a3330b3ac0b2eaa9e01328b3484ef1112"
+  integrity sha512-y3UaQ1rIkp2Nzv67Wa/MS7GJM958CDyWkMmnFneTRcWKlaSPreESrwruQ2WhEapQHCV6HJ2Pj62k0BB7mtQNHw==
+  dependencies:
+    "@types/node" "*"
+    "@types/webpack" "^4"
+
 "@types/mime@^1":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-1.3.2.tgz#93e25bf9ee75fe0fd80b594bc4feb0e862111b5a"
@@ -1552,10 +1560,22 @@
     tapable "^2.2.0"
     webpack "^5"
 
+"@types/minipass@*":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@types/minipass/-/minipass-2.2.0.tgz#51ad404e8eb1fa961f75ec61205796807b6f9651"
+  integrity sha512-wuzZksN4w4kyfoOv/dlpov4NOunwutLA/q7uc00xU02ZyUY+aoM5PWIXEKBMnm0NHd4a+N71BMjq+x7+2Af1fg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "14.14.31"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
   integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
+
+"@types/node@^15.6.0":
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.6.0.tgz#f0ddca5a61e52627c9dcb771a6039d44694597bc"
+  integrity sha512-gCYSfQpy+LYhOFTKAeE8BkyGqaxmlFxe+n4DKM6DR0wzw/HISUE/hAmkC/KT8Sw5PCJblqg062b3z9gucv3k0A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1650,6 +1670,14 @@
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.7.tgz#545158342f949e8fd3bfd813224971ecddc3fac4"
   integrity sha512-0VBprVqfgFD7Ehb2vd8Lh9TG3jP98gvr8rgehQqzztZNI7o8zS8Ad4jyZneKELphpuE212D8J70LnSNQSyO6bQ==
+
+"@types/tar@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/tar/-/tar-4.0.4.tgz#d680de60855e7778a51c672b755869a3b8d2889f"
+  integrity sha512-0Xv+xcmkTsOZdIF4yCnd7RkOOyfyqPaqJ7RZFKnwdxfDbkN3eAAE9sHl8zJFqBz4VhxolW9EErbjR1oyH7jK2A==
+  dependencies:
+    "@types/minipass" "*"
+    "@types/node" "*"
 
 "@types/terser-webpack-plugin@^5.0.3":
   version "5.0.3"
@@ -2471,6 +2499,11 @@ chardet@^0.7.0:
   optionalDependencies:
     fsevents "~2.3.1"
 
+chownr@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
+  integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
@@ -3268,6 +3301,15 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dts-loader@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/dts-loader/-/dts-loader-0.1.0.tgz#87541e5524677dd9961a3c9fec03da3553f40207"
+  integrity sha512-6kUgNeBzTsRGdGDgh1OitFeAWQ0oM0G43IPoIsnjo+jWSl5uRoP88b77XqW0P6dnlolpPOowVz2d7yD4TtmZ+w==
+  dependencies:
+    fs-extra "^10.0.0"
+    loader-utils "^2.0.0"
+    ramda "^0.27.1"
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -3789,6 +3831,13 @@ fs-extra@^9.0.0:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
     universalify "^2.0.0"
+
+fs-minipass@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
+  integrity sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==
+  dependencies:
+    minipass "^3.0.0"
 
 fs-monkey@1.0.3:
   version "1.0.3"
@@ -5466,6 +5515,21 @@ minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
+minipass@^3.0.0:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
+  integrity sha512-Mgd2GdMVzY+x3IJ+oHnVM+KG3lA5c8tnabyJKmHSaG2kAGpudxuOf8ToDkhumF7UzME7DecbQE9uOZhNm7PuJg==
+  dependencies:
+    yallist "^4.0.0"
+
+minizlib@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
+  integrity sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==
+  dependencies:
+    minipass "^3.0.0"
+    yallist "^4.0.0"
+
 mixin-deep@^1.2.0:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
@@ -5480,6 +5544,11 @@ mkdirp@^0.5.5:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
+
+mkdirp@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -6914,10 +6983,10 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
-reapex-cli@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/reapex-cli/-/reapex-cli-0.0.2.tgz#7af96e3adedd4666a0ec5086c9548e94611487dd"
-  integrity sha512-dzsq9ezYwiK3nIajpTdTIPHQHuKMg0p0WDbPZSAF0DjEOnKlnxeFiEUqvjADWJvMaOXFlqVKCiw8WTK8YqBh7Q==
+reapex-cli@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/reapex-cli/-/reapex-cli-0.0.6.tgz#76a0556d2dfdf0c432004d1bc1a155f3f782c8b7"
+  integrity sha512-OxtdWA0XPeqYOBi2fplUzvcU0eMOJ8aMYAOD4yzTGgfiPGt+VIhZZvAy8vCRW1MUnJkkEppAUWt7ORVGPtER2Q==
   dependencies:
     "@babel/core" "^7.14.2"
     "@babel/plugin-transform-runtime" "^7.14.2"
@@ -6929,8 +6998,11 @@ reapex-cli@^0.0.2:
     "@types/css-minimizer-webpack-plugin" "^1.3.0"
     "@types/figlet" "^1.5.1"
     "@types/fs-extra" "^9.0.11"
+    "@types/loader-utils" "^2.0.2"
     "@types/mini-css-extract-plugin" "^1.4.3"
+    "@types/node" "^15.6.0"
     "@types/ramda" "^0.27.40"
+    "@types/tar" "^4.0.4"
     "@types/terser-webpack-plugin" "^5.0.3"
     "@types/webpack-dev-server" "^3.11.4"
     babel-loader "^8.2.2"
@@ -6939,6 +7011,7 @@ reapex-cli@^0.0.2:
     copy-webpack-plugin "^8.1.1"
     css-loader "^5.2.4"
     css-minimizer-webpack-plugin "^3.0.0"
+    dts-loader "^0.1.0"
     figlet "^1.5.0"
     fork-ts-checker-webpack-plugin "^6.2.9"
     fs-extra "^10.0.0"
@@ -6946,6 +7019,8 @@ reapex-cli@^0.0.2:
     inquirer "^8.0.0"
     less "^4.1.1"
     less-loader "^9.0.0"
+    loader-utils "^2.0.0"
+    memfs "^3.2.2"
     mini-css-extract-plugin "^1.6.0"
     mini-svg-data-uri "^1.3.3"
     ora "^5.4.0"
@@ -6957,10 +7032,12 @@ reapex-cli@^0.0.2:
     sass-loader "^11.1.1"
     simple-git "^2.39.0"
     style-loader "^2.0.0"
+    tar "^6.1.0"
     terser-webpack-plugin "^5.1.2"
     webpack "^5.37.0"
     webpack-dev-server "^4.0.0-beta.3"
     webpack-merge "^5.7.3"
+    webpack-remote-types-plugin "0.1.1"
 
 reapex@^1.0.0-beta.18:
   version "1.0.0-beta.18"
@@ -7855,6 +7932,18 @@ tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
   integrity sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw==
 
+tar@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
+  integrity sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA==
+  dependencies:
+    chownr "^2.0.0"
+    fs-minipass "^2.0.0"
+    minipass "^3.0.0"
+    minizlib "^2.1.1"
+    mkdirp "^1.0.3"
+    yallist "^4.0.0"
+
 tcomb@^3.2.21:
   version "3.2.29"
   resolved "https://registry.yarnpkg.com/tcomb/-/tcomb-3.2.29.tgz#32404fe9456d90c2cf4798682d37439f1ccc386c"
@@ -8355,6 +8444,14 @@ webpack-merge@^5.7.3:
   dependencies:
     clone-deep "^4.0.1"
     wildcard "^2.0.0"
+
+webpack-remote-types-plugin@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/webpack-remote-types-plugin/-/webpack-remote-types-plugin-0.1.1.tgz#ceeba5e478a209669ba5a287a691451f1156160f"
+  integrity sha512-yxEhUPOmRUs6KjAFs13WEXAw6IwPS2ah9+9l0jSQAj7H9eF0VLmXPHVxVSK6BcyU2RyryeISTZk5O24ruEshhw==
+  dependencies:
+    fs-extra "^10.0.0"
+    tar "^6.1.0"
 
 webpack-sources@^1.1.0:
   version "1.4.3"
