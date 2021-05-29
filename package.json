@@ -12,10 +12,12 @@
     "@types/jest": "^26.0.20",
     "@types/react": "17.0.5",
     "@types/react-dom": "17.0.5",
+    "@types/redux-logger": "^3.0.8",
     "jest": "^26.6.3",
     "precss": "^4.0.0",
     "react-hot-loader": "^4.13.0",
     "reapex-cli": "^0.0.6",
+    "redux-logger": "^3.0.6",
     "typescript": "^4.2.4",
     "webpack": "^5.37.0"
   },

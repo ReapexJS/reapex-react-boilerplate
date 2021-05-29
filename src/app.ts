@@ -1,3 +1,12 @@
 import { App } from 'reapex'
 
-export const app = new App()
+const middlewares = []
+
+if (process.env.NODE_ENV === 'development') {
+  const { logger } = require('redux-logger')
+  middlewares.push(logger)
+}
+
+export const app = new App({
+  middlewares,
+})
