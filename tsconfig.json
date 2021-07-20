@@ -19,12 +19,8 @@
     "noUnusedLocals": true,
     "baseUrl": "./",
     "paths": {
-      "*": ["*", "./.wp_federation/remotes/*"]
-    },
-    "typeRoots": [
-      "./.wp_federation/remotes",
-      "./node_modules/@types"
-    ]
+      "*": ["*", ".wp_federation/remotes/*"]
+    }
   },
   "include": ["src"]
 }
